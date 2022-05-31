@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/animate-custome.css" />
+  
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    
+    
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyA56zJnsiEHI0hDJm1_f8MdYVfPiBnXIi4",
+        authDomain: "firstwebpage-e0eb3.firebaseapp.com",
+        projectId: "firstwebpage-e0eb3",
+        storageBucket: "firstwebpage-e0eb3.appspot.com",
+        messagingSenderId: "988571447369",
+        appId: "1:988571447369:web:a2b74f26b9595168850f98"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header-nav">
+      <div class="topnav-container">
+        <div class="topnav">
+          <div class="nav-logo">
+            <div class="logo-img">
+            <img src="assets/images/logo_heading.png" />
+            </div>
+          </div>
+          <div class="navbar-toggle"  >
+            <div class="toggle-buttton " >
+              <buttton class="toggle-btn" onclick="openNav()">
+                <i class="fas fa-bars" ></i>
+              </button>
+            </div>
+            </div>
+              <div class="overlay"  id="myLinks" >
+              <a
+                  href="javascript:void(0)"
+                  class="closebtn"
+                  onclick="closeNav()"
+                  >&times;</a
+                >
+            
+              <div class="nav-link">
+                <ul class="navbar-link">
+                  <li class="navbar-list"><a href="#">ABOUT</a></li>
+                  <li class="navbar-list"><a href="#">FEATURE</a></li>
+                  <li class="navbar-list"><a href="#">DESIGN</a></li>
+                  <li class="navbar-list"><a href="#">SCREENSHOTS</a></li>
+                  <li class="navbar-list"><a href="#">TESTIMONIALS</a></li>
+                  <li>
+                    <button class="nav-button">
+                      <i class="fas fa-shopping-cart navicon"></i>GET IT
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              </div>
+          <div class="nav-link">
+            <ul class="navbar-link">
+              <li class="navbar-list"><a href="#">ABOUT</a></li>
+              <li class="navbar-list"><a href="#">FEATURE</a></li>
+              <li class="navbar-list"><a href="#">DESIGN</a></li>
+              <li class="navbar-list"><a href="#">SCREENSHOTS</a></li>
+              <li class="navbar-list"><a href="#">TESTIMONIALS</a></li>
+              <li>
+                <button class="nav-button">
+                  <i class="fas fa-shopping-cart navicon"></i>GET IT
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="container">
+    <div class="banner-bg-grey">
+      <div class="promo-container">
+        <div class="promo">
+          <div class="promo-left">
+            <div class="promo-heading">
+              <h1>LAMBDA</h1>
+            </div>
+            <div class="promo-para">
+              The Most Powerful app ever made.Buy now !
+            </div>
+            <div class="promo-button">
+              <button class="i-btn">IPHONE <i class="fab fa-apple"></i></button>
+              <button class="ftr-btn-android">ANDROID<i class="fab fa-android"></i></button>
+            </div>
+          </div>
+          <div class="promo-right wow slideInRight"  data-wow-duration="1.2s" >
+            <img src="assets/images/promo_img.png" />
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <!---AWESOME-FEATURES-->
+  <div class="awesome-feature-wrapper">
+    <div class="awesome-feature-container">
+      <div class="awesome-feature-content">
+        <div class="feature-row-top">
+          <div class="feature-heading">
+            <h1>AWESOME FEATURES</h1>
+          </div>
+          <div class="feature-para">
+            <p>
+              Take a look at some of these features that makes Lambda so unique.</p>
+              <p>  
+              We worked hard to make a product that will stand out of the crowd.
+            </p>
+          </div>
+        </div>
+        <div class="feature-row-bottom">
+          <div class="col wow bounceInLeft" data-wow-duration="1.5s" >
+            <div class="col-text">
+              <div class="col-icon">
+                <i class="fas fa-volume-up"></i>
+              </div>
+              <div class="col-para">
+                <h2>SPEECH RECOGNITION</h2>
+                <p>
+                  Want to interact with the app.No need for gestures!and it
+                  will understand
+                </p>
+              </div>
+              </div>
+            <div class="col-text">
+              <div class="col-icon">
+                <i class="fas fa-redo"></i>
+              </div>
+              <div class="col-para">
+                <h2>FREE UPDATES</h2>
+                <p>
+                  No need to pay to get the updates. With Lambda all updates are free!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="awesome-img wow bounceInUp"  data-wow-offset="30"  data-wow-duration="1.5s"  >
+            <img src="assets/images/feature_img.png" />
+            </div>
+          </div>
+          <div class="col wow bounceInRight" data-wow-duration="1.5s" >
+            <div class="col-text">
+              <div class="col-icon">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <div class="col-para">
+                <h2>RESPONSIVE DESIGN</h2>
+                <p>
+                  Made to look great on all devices. Tablets, mobiles and even desktops.
+                </p>
+              </div>
+            </div>
+            <div class="col-text">
+              <div class="col-icon">
+                <i class="fas fa-fan"></i>
+              </div>
+              <div class="col-para">
+                <h2>ENERGY SAVER</h2>
+                <p>
+                  Designed to save energy and use less of your device’s CPU so you can use it more.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---AMAZING-DESIGN-->
+  <div class="amazing-design-wrapper">
+    <div class="amazing-feature-container">
+      <div class="amazing-feature-content">
+        <div class="amazing-design-heading wow bounceInRight">
+          <h1>AMAZING DESIGN</h1>
+        </div>
+        <div class="amazing-design-para wow slideInDown">
+          <p>
+             Lambda is the world's most advanced theme. And with incredible new
+            capabilities and features designed to make the most out of
+            creatiivity
+          </p>
+        </div>
+        <div class="amazing-design-img wow slideInLeft" data-wow-iteration:="10">
+          <img src="assets/images/amazing-desing-img.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--SCREENSHOTS-->
+  <div class="screen-shot-wrapper">
+    <div class="screen-shot-container">
+      <div class="screen-shot-content">
+        <div class="screen-shot-heading">
+          <h1>SCREENSHOTS</h1>
+        </div>
+        <div class="screen-shot-para">
+          <p>
+            We worked hard to make a product that will stand out from the
+            crowd.
+          </p>
+          <p>
+            Take a look at some of these cool features that makes Lambda so
+            unique.
+          </p>
+        </div>
+
+        <div class="screen-shot-row">
+          <div class="screen-shot-col wow rollIn" data-wow-duration="1s">
+            <div class="screenshot-img">
+              <img src="assets/images/screenshot-img.png" />
+            </div>
+          </div>
+          <div class="screen-shot-col wow bounceInDown"  data-wow-duration="1.5s">
+            <div class="screenshot-img">
+              <img src="assets/images/screenshot-img.png" />
+            </div>
+          </div>
+          <div class="screen-shot-col wow bounceInUp"  data-wow-duration="1.5s">
+            <div class="screenshot-img">
+              <img src="assets/images/screenshot-img.png" />
+            </div>
+          </div>
+          <div class="screen-shot-col wow rotateInUpRight"  data-wow-duration="1s">
+            <div class="screenshot-img">
+              <img src="assets/images/screenshot-img.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---best-app-ever-->
+  <div class="best-app-wrapper">
+    <div class="best-app-container">
+      <div class="best-app-ever-content">
+        <div class="best-app-row">
+          <div class="best-app-col-left wow slideInLeft">
+            <div class="best-app-img">
+            <img src="assets/images/best-app-ever-img.png" />
+          </div>
+          </div>
+          <div class="best-app-col-right wow slideInRight">
+            <div class="best-app-heading">
+              <h1>BEST APP , EVER</h1>
+            </div>
+            <div class="best-app-para">
+              <p>
+                Lambda is the world’s most advanced theme. Built with
+                incredible new capabilities and features designed to make the
+                most out of your creativity. As with all of our products
+                you’ll get 100% solid support.
+              </p>
+            </div>
+            <div class="list">
+              <ul class="best-app-order-list">
+                <li class="best-app-list">
+                  <i class="fas fa-check"></i>Awesome design
+                </li>
+                <li class="best-app-list">
+                  <i class="fas fa-check"></i>Retina ready
+                </li>
+                <li class="best-app-list">
+                  <i class="fas fa-check"></i>WooCommerce ready
+                </li>
+                <li class="best-app-list">
+                  <i class="fas fa-check"></i>Cool animation
+                </li>
+                <li class="best-app-list">
+                  <i class="fas fa-check"></i>Speed optimised
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---TESTIMONIAL-->
+  <div class="testimonial-wrapper">
+    <div class="container">
+      <div class="testimonial-content">
+        <p>
+          Christos Pantazis is the quickest and most helpful guy I've ever met
+          on Themeforest. His theme is awesome and if you need to alter it
+          under the hood, he responds so quickly. I could hardly believe. Big
+          plus for his support and a big plus for his amazing theme. Keep it
+          up.
+        </p>
+        <div class="testimonial-cirle">
+          <img src="assets/images/testimonial-circle.png" />
+        </div>
+        <div class="testimonial">
+          <span> <em>-Jennifer Stewart</em> Stimware</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <div class="footer-wrapper">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-heading">
+          <h1>GET IT NOW</h1>
+        </div>
+        <div class="footer-para">
+          <p>Lambda is available now exclusively on themeforest.</p>
+          <p>Start creating your website now!</p>
+        </div>
+        <div class="footer-button">
+          <button class="ftr-btn-iphone">
+            IPHONE<i class="fab fa-apple"></i>
+          </button>
+          <button class="ftr-btn-android">
+            ANDROID<i class="fab fa-android"></i>
+          </button>
+        </div>
+        <div class="footer-social">
+          <span><i class="fab fa-twitter"></i></span>
+          <span><i class="fab fa-google-plus"></i></span>
+          <span><i class="fab fa-facebook-f"></i></span>
+          <span><i class="fab fa-pinterest"></i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script>
+  new WOW().init();
+  </script>
+</body>
+</html>

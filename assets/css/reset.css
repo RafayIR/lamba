@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+.nav-link a:hover {
+  color: #72b4b6;
+}
+
+.amazing-feature-container,
+.screen-shot-container,
+.awesome-feature-container,
+.promo-container,
+.best-app-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.amazing-design-wrapper {
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+.footer-wrapper {
+  background-color: #424346;
+}
+
+.overlay .nav-link,
+a.closebtn {
+  display: none;
+}

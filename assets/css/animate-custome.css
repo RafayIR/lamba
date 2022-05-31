@@ -1,0 +1,12 @@
+:root {
+  --animate-duration: 2s;
+}
+
+.promo-right {
+  animation-fill-mode: none;
+}
+
+.awesome-img {
+  animation-delay: 0.5ms;
+  animation-duration: 0.15s;
+}

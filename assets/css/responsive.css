@@ -1,0 +1,462 @@
+@media screen and (min-width: 320px) and (max-width: 1224px) {
+  .amazing-feature-container,
+  .topnav-container,
+  .banner-bg-grey,
+  .contain,
+  .promo-container,
+  .awesome-feature-container,
+  .screen-shot-container,
+  .best-app-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .amazing-design-wrapper {
+    background-color: #f0f0f0;
+    width: 100%;
+    padding-inline: 4px;
+  }
+
+  .best-app-wrapper {
+    padding-inline: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1225px) {
+  .nav-link {
+    width: 77%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .promo-para {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .promo-heading h1 {
+    font-size: 47px;
+  }
+
+  .nav-link {
+    width: 74%;
+  }
+  .logo-heading h1 {
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+
+  .col-text {
+    display: flex;
+    margin-bottom: 53px;
+    text-align: center;
+    line-height: 22px;
+    width: 100%;
+  }
+  .nav-button {
+    margin-left: 37px;
+  }
+
+  .promo-right img {
+    max-width: 71%;
+  }
+
+  .best-app-col-left {
+    width: 57%;
+  }
+
+  .best-app-img img {
+    width: 65%;
+  }
+
+  .awesome-feature-wrapper {
+    padding-inline: 15px;
+  }
+  .best-app-heading {
+    margin-bottom: 49px;
+    margin-top: 59px;
+  }
+
+  .list {
+    margin-top: 10px;
+  }
+
+  li.best-app-list {
+    margin-top: 14px;
+    font-size: 14px;
+  }
+
+  .best-app-para p {
+    line-height: 17px;
+    font-size: 15px;
+  }
+
+  .screen-shot-row {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .screen-shot-col {
+    display: flex;
+    width: 45%;
+    margin: 13px;
+    justify-content: center;
+    /* text-align: right; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+  }
+
+  .screenshot-img {
+    width: 100%;
+  }
+
+  .screenshot-img img {
+    width: 100%;
+  }
+  .footer-para p {
+    font-size: 27px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 924px) {
+  .nav-button {
+    margin-left: 25px;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .overlay .nav-link {
+    display: flex;
+  }
+
+  .overlay .nav-link {
+    width: 100%;
+  }
+
+  ul.navbarlink {
+    width: 100%;
+  }
+  .nav-link ul.navbar-link li.navbar-list a {
+    padding: 9px 16px;
+    font-size: 17px;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  .nav-button {
+    margin-left: 0;
+    margin-top: 14px;
+  }
+  a.closebtn {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  ul.navbar-link {
+    width: 100%;
+  }
+  .navbar-toggle {
+    display: block;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 23px;
+    margin-top: 31px;
+  }
+
+  button.toggle-btn {
+    /* width: 35px; */
+    font-size: 22px;
+    padding: 8px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #fdf8f8;
+  }
+
+  .promo-right img {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .promo-left {
+    text-align: center;
+    width: 100%;
+  }
+
+  .promo-right {
+    max-width: 100%;
+    text-align: center;
+  }
+  .amazing-design-img img {
+    max-width: 75%;
+  }
+
+  .testimonial-content p {
+    font-size: 20px;
+    margin-left: 11%;
+    margin-right: 8%;
+  }
+
+  .promo-heading h1 {
+    margin-bottom: 0px;
+  }
+
+  .awesome-img img {
+    width: 78%;
+  }
+
+  .amazing-design-para p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .footer-para p {
+    font-size: 27px;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .promo {
+    flex-direction: column-reverse;
+  }
+  .promo-para {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .promo-heading h1 {
+    font-size: 48px;
+  }
+
+  .promo-button button {
+    margin-left: 20px;
+  }
+  .feature-row-bottom {
+    display: block;
+    width: 100%;
+  }
+  .best-app-col-left {
+    width: 59%;
+  }
+  .best-app-heading {
+    margin-bottom: 49px;
+  }
+  .list {
+    margin-top: 10px;
+  }
+
+  li.best-app-list {
+    margin-top: 14px;
+    font-size: 18px;
+  }
+
+  .col {
+    width: 100%;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+  .col-text {
+    margin: 9px;
+  }
+  .screen-shot-row {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .screen-shot-col {
+    width: 45%;
+    margin: 13px;
+    justify-content: center;
+  }
+  .best-app-row {
+    flex-direction: column-reverse;
+    margin: 15px;
+  }
+
+  .footer-heading h1::after {
+    left: 45%;
+    bottom: -14px;
+  }
+
+  .best-app-col-right {
+    width: 100%;
+  }
+  .best-app-col-left {
+    width: 100%;
+  }
+
+  .best-app-img img {
+    width: 55%;
+    margin-top: 35px;
+  }
+
+  .testimonial-wrapper {
+    margin-top: -20px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  .logo-img img {
+    width: 80%;
+  }
+
+  .navbar-toggle {
+    margin-top: 24px;
+  }
+
+  .navbar-toggle {
+    width: 11%;
+  }
+  .promo {
+    flex-direction: column-reverse;
+  }
+  .promo-left {
+    text-align: center;
+    width: 100%;
+  }
+
+  .promo-heading h1 {
+    font-size: 40px;
+  }
+  .promo-para {
+    font-size: 28px;
+    width: 100%;
+  }
+  .promo-button button {
+    margin-left: 1px;
+  }
+
+  .amazing-design-heading h1::after {
+    left: 43%;
+  }
+  .footer-heading h1::after {
+    left: 43%;
+    bottom: -11px;
+  }
+
+  .feature-heading h1::after {
+    left: 44%;
+    top: 62px;
+  }
+
+  .feature-row-bottom {
+    display: block;
+    width: 100%;
+  }
+
+  .col {
+    width: 100%;
+    text-align: center;
+  }
+  .col-text {
+    margin-bottom: 25px;
+    width: 95%;
+  }
+
+  .best-app-img img {
+    width: 64%;
+    margin-top: 35px;
+  }
+
+  .best-app-row {
+    flex-direction: column-reverse;
+  }
+
+  .best-app-col-right {
+    width: 100%;
+  }
+  .best-app-col-left {
+    width: 100%;
+  }
+
+  .screen-shot-heading h1::after {
+    left: 44%;
+  }
+
+  .footer-para p {
+    font-size: 20px;
+  }
+  .screen-shot-row {
+    width: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .screen-shot-col {
+    width: 100%;
+    margin: 13px;
+    justify-content: center;
+  }
+  .testimonial-wrapper {
+    margin-top: -5px;
+  }
+
+  .footer-content .footer-heading h1 {
+    font-size: 29px;
+  }
+
+  .footer-content .footer-button button {
+    margin-top: 15px;
+    margin-bottom: 21px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .top-nav {
+    padding-inline: 0px;
+  }
+  .col-text {
+    line-height: 22px;
+  }
+
+  .promo-button button {
+    font-size: 17px;
+    margin-top: 24px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .best-app-heading {
+    margin-top: 15px;
+  }
+  .promo-button {
+    padding-left: 15px;
+  }
+  .awesome-img {
+    margin-bottom: 25px;
+  }
+  .feature-heading h1::after {
+    left: 44%;
+    top: 68px;
+  }
+  .footer-social .fab {
+    font-size: 15px;
+  }
+}
